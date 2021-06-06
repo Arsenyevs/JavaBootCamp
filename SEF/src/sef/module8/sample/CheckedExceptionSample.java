@@ -23,6 +23,7 @@ public class CheckedExceptionSample {
 		}catch (FileNotFoundException e) {
 			System.out.println("file " + fileName + " not found");
 		}
-		//2 - catch FileNotFoundException 
+		//2 - catch FileNotFoundException
+
 	}
 }

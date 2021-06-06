@@ -29,18 +29,20 @@ public class MapSample {
 	{
 		//Keys are maintained as set in map.
 		Set keySet = map.keySet();
-		
+
+
 		//You can use an iterator to access keys
 		System.out.println("*************************************");
 		System.out.println("Key\tValue");
 		Iterator it=keySet.iterator();
+		System.out.println(keySet.iterator());
 		while(it.hasNext())
 		{
 			String key=(String)it.next();
 			System.out.println(key+"\t"+map.get(key));
 		}
-		
+
 		System.out.println("*************************************");
-		
+
 	}
 }

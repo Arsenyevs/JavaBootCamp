@@ -12,14 +12,14 @@ public class ListActivityTest2 {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		
-		
+
+
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		
-		
+
+
 	}
 
 	@Before
@@ -33,20 +33,23 @@ public class ListActivityTest2 {
 
 	@Test
 	public void test() {
-		
+
+		String temp = "yoyo";
 		System.out.println(temp);
 		fail("Not yet implemented");
 	}
 	@Test
 	public void test1() {
+		String temp = "yoyo";
 		System.out.println(temp);
 		fail("Not yet implemented");
 	}
 	@Test
 	public void test2() {
+		String temp = "yoyo";
 		System.out.println(temp);
 		fail("Not yet implemented");
 	}
-	
+
 
 }

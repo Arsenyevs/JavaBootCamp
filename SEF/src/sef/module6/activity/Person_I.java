@@ -8,23 +8,38 @@ public class Person_I {
 	//Attributes
 	private String name;
 	private int age;
-	
+
+
+
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
+	public Person_I(){
+		this.name = setName(name);
+		this.age = setAge(age);
+		System.out.println("I am a Person_A Constructor");
+	}
 	
 	
 	//Behavior - write parameterized constructor
-	
+	public Person_I(String name, int age) {
+		this.name = name;
+		this.age = age;
+
+	}
 	
 	// write getter for String name
-	
+	public String getName() {return name;}
+
 	
 	// write setter for String name
-	
+	public String setName(String name) {this.name =  name;return name;}
+
 
 	// write getter for int age
-	
 
+	public int getAge() {return age;}
 	// write setter for int age
-	
+	public int setAge(int age) {this.age =  age;
+		return age;
+	}
 }
 

@@ -17,7 +17,7 @@ public class Person {
 	}
 	public Person(){
 		
-		System.out.println("Welcomt to new class and I don't have any basic value of Name");
+		System.out.println("Welcome to new class and I don't have any basic value of Name");
 	}
 	
 	public String getName() {

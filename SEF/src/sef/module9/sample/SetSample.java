@@ -9,20 +9,21 @@ public class SetSample {
 		//1 - Create a new HashSet and name it monthSet
 
 		Set monthset = new HashSet();
-		monthset.add("Aaril");
+		monthset.add("April");
 		monthset.add("January");
 		monthset.add("Februry");
 		monthset.add("March");
-		//monthset.
-//		
-//		monthset.add(4);
-//		monthset.add(3);
-//		monthset.add(1);
-//		monthset.add(2);
-//		
+
+
+		monthset.add(4);
+		monthset.add(3);
+		monthset.add(1);
+		monthset.add(2);
+
 		
-		//System.out.println(monthset.add("January"));
-		
+		System.out.println(monthset.add("January"));
+		System.out.println(monthset.add("April"));
+
 		
 
 		//2 - Add duplicate month names in it. For eg. January can be entered twice

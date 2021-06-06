@@ -16,6 +16,7 @@ public class CalculatorClient {
 		*/
 		Calculator normalCalc = new Calculator(Calculator.CALC_TYPE_BASIC);
 
+
 		System.out.println("*** Calculations will be performed using "+normalCalc.getCalculatorType()+ " calculator ***");
 
 		// Add
